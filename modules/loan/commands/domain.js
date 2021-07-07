@@ -1,10 +1,8 @@
 const { v4: uuid } = require('uuid');
 
-const logger = require('../../../helpers/utils/logger');
 const { CODE: httpCode } = require('../../../helpers/utils/commons');
 
 const Loan = require('../schema/loanSchema');
-const User = require('../../users/schema/userSchema');
 
 class LoanCommand {
   static async requestLoan(payload, response) {
