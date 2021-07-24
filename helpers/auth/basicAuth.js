@@ -23,3 +23,4 @@ module.exports = {
   isAuthenticated,
   init,
 };
+

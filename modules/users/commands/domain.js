@@ -127,3 +127,4 @@ class UserCommand {
 }
 
 module.exports = UserCommand;
+

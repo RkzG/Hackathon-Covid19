@@ -24,3 +24,4 @@ module.exports.findByUsername = (username, cb) => {
   const user = new User(userData[0].username, userData[0].password);
   cb(user);
 };
+

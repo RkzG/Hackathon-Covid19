@@ -18,4 +18,5 @@ class UserQuery {
   }
 }
 
+
 module.exports = UserQuery;

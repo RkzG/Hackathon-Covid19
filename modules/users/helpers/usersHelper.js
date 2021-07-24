@@ -6,3 +6,4 @@ const replaceChar = (str, index, char) => {
 module.exports = {
   replaceChar
 };
+

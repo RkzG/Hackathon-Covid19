@@ -16,4 +16,5 @@ const mongoDb = () => {
     .catch((err) => err ? logger.error(ctx, 'Database error', err) : {});
 };
 
+
 module.exports = mongoDb;

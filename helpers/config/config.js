@@ -22,3 +22,4 @@ const config = {
 const store = new confidence.Store(config);
 
 exports.get = key => store.get(key);
+

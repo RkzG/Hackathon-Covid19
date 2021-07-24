@@ -31,6 +31,7 @@ const registerSchema = joi.object().keys({
   isTwoFactor: joi.bool().optional().default(false),
 });
 
+
 const schema = new mongoose.Schema(joigoose.convert(registerSchema));
 const User = mongoose.model('user', schema);
 

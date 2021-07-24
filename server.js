@@ -30,3 +30,4 @@ app.listen(PORT, async (err) => {
   await err ? logger.error(ctx, 'Error initialize', err) :
     logger.log(ctx, `Connected to ${PORT}`, 'Server');
 });
+
